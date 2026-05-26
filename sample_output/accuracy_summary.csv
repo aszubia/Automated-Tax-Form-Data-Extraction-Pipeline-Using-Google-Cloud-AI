@@ -1,0 +1,13 @@
+metric,value
+total_files_in_ground_truth,27
+total_field_checks,81
+pass_fields,68
+fail_fields,9
+not_verifiable_fields,4
+verifiable_fields,77
+field_level_accuracy_excluding_not_verifiable,88.31%
+clean_field_level_accuracy,87.88%
+noisy_field_level_accuracy,88.64%
+auto_approval_precision,100.00%
+accuracy_formula,"Pass / (Pass + Fail), excluding Not Verifiable fields"
+precision_formula,Correct AUTO_APPROVED fields / all AUTO_APPROVED verifiable fields

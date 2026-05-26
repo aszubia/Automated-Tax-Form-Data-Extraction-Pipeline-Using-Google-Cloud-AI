@@ -1,0 +1,12 @@
+section,file_type,status,total,percentage,ratio
+status_distribution,all,AUTO_APPROVED,258,53.64,
+status_distribution,all,NEEDS_REVIEW,223,46.36,
+status_distribution,all,FAILED,0,0.0,
+status_distribution,clean,AUTO_APPROVED,223,55.61,
+status_distribution,clean,NEEDS_REVIEW,178,44.39,
+status_distribution,clean,FAILED,0,0.0,
+status_distribution,noisy,AUTO_APPROVED,35,43.75,
+status_distribution,noisy,NEEDS_REVIEW,45,56.25,
+status_distribution,noisy,FAILED,0,0.0,
+ratio,all,NEEDS_REVIEW_to_AUTO_APPROVED,,,0.8643
+ratio,all,AUTO_APPROVED_to_NEEDS_REVIEW,,,1.157

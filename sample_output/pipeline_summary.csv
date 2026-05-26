@@ -1,0 +1,4 @@
+file_type,status,total
+clean,AUTO_APPROVED,4
+clean,NEEDS_REVIEW,1
+noisy,NEEDS_REVIEW,5

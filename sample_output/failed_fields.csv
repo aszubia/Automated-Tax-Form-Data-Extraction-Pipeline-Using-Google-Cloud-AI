@@ -1,0 +1,10 @@
+file_name,file_type,field_name,expected_value,extracted_value,result,status,review_reason
+W2_XL_input_clean_1003.pdf,clean,employee_address,6503 John Stream New Meredithstad MI 19628-813,6503 John Stream,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2909.pdf,noisy,employee_name,Philip Robertson,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_noisy_2917.pdf,noisy,employee_ssn,091-54-3329,,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_ssn
+W2_XL_input_noisy_2921.pdf,noisy,employee_name,Laura Lawson,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_noisy_2921.pdf,noisy,employee_address,4454 Roy Plaza East Richardshire DE 42353,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_noisy_2921.pdf,noisy,employee_ssn,872-55-3605,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_clean_1006.pdf,clean,employee_address,95842 Freeman Coves Apt. 609 Robertburgh MA 63545-3314,95842 Freeman Coves Apt. 63545-3314,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1007.pdf,clean,employee_name,Seth Bailey,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_clean_1007.pdf,clean,employee_address,341 Charles Mountains Morganberg CO 47155-8501,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"

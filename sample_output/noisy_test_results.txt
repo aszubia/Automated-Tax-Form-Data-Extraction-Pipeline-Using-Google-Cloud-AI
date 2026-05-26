@@ -1,0 +1,694 @@
+PDF Parser Test Results - Extracted Fields and Validation Only
+Generated at: 2026-05-26T08:58:41.772563
+Bucket: firstgen-taxform-storage-2026
+Folder: raw/
+Preprocessing: DISABLED
+====================================================================================================
+
+Checking PDF files in Cloud Storage...
+
+Found 481 PDF file(s).
+
+Selected PDFs for testing:
+- raw/W2_XL_input_clean_1000.pdf
+- raw/W2_XL_input_clean_1001.pdf
+- raw/W2_XL_input_clean_1002.pdf
+- raw/W2_XL_input_clean_1003.pdf
+- raw/W2_XL_input_clean_1004.pdf
+- raw/W2_XL_input_clean_1005.pdf
+- raw/W2_XL_input_clean_1006.pdf
+- raw/W2_XL_input_clean_1007.pdf
+- raw/W2_XL_input_clean_1008.pdf
+- raw/W2_XL_input_clean_1009.pdf
+- raw/W2_XL_input_clean_1010.pdf
+- raw/W2_XL_input_noisy_2536.pdf
+- raw/W2_XL_input_noisy_2908.pdf
+- raw/W2_XL_input_noisy_2909.pdf
+- raw/W2_XL_input_noisy_2910.pdf
+- raw/W2_XL_input_noisy_2911.pdf
+- raw/W2_XL_input_noisy_2913.pdf
+- raw/W2_XL_input_noisy_2915.pdf
+- raw/W2_XL_input_noisy_2916.pdf
+- raw/W2_XL_input_noisy_2917.pdf
+- raw/W2_XL_input_noisy_2918.pdf
+- raw/W2_XL_input_noisy_2919.pdf
+- raw/W2_XL_input_noisy_2920.pdf
+- raw/W2_XL_input_noisy_2921.pdf
+- raw/W2_XL_input_noisy_2922.pdf
+- raw/W2_XL_input_noisy_2923.pdf
+- raw/W2_XL_input_noisy_2924.pdf
+
+Starting concurrent execution loop across threads...
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1000.pdf
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1003.pdf
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1001.pdf
+====================================================================================================
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1005.pdf
+====================================================================================================
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1004.pdf
+====================================================================================================
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1002.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1004.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    James Williams
+employee_address: 95060 Crystal Burg Apt. 070 Davisburgh AR 30937-0798
+employee_ssn:     037-07-1416
+employer_name:    Frederick-Hendricks Group
+employer_address: 01670 Adams Islands Angelatown AZ 21706-7217
+employer_ein:     71-6374971
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1004.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1006.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1006.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Mary Dickerson
+employee_address: 95842 Freeman Coves Apt. 63545-3314
+employee_ssn:     036-91-4705
+employer_name:    Morgan Ltd and Sons
+employer_address: None
+employer_ein:     22-3437795
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1006.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.0
+id_confidence:      0.95
+overall_confidence: 0.6333333333333333
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1007.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1005.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Trevor Duncan
+employee_address: 41435 Hughes Drive New Teresaberg KS 99528-9775
+employee_ssn:     768-05-9800
+employer_name:    White PLC Inc
+employer_address: None
+employer_ein:     83-1015714
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1005.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1008.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1000.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    April Hensley
+employee_address: 31403 David Circles Suite 863 West Erinfort WY 45881-3334
+employee_ssn:     077-49-4905
+employer_name:    Richardson-Brown PLC
+employer_address: 2936 Howard Radial West Raymond NV 44735-6958
+employer_ein:     37-2766773
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1000.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1009.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1001.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Taylor Cox
+employee_address: 613 Roger Crest Apt. 802 Leeton IA 26442-8249
+employee_ssn:     779-70-5706
+employer_name:    Carlson Group Group
+employer_address: 56319 Underwood Views Lake Debramouth NE 33667-9751
+employer_ein:     39-3114215
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1001.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_clean_1010.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1009.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Michelle Brown
+employee_address: 730 Huber Island Suite 344 Collinshaven IN 29316-8972
+employee_ssn:     133-45-6693
+employer_name:    Cooper, Spence and Curry Ltd
+employer_address: None
+employer_ein:     65-8736227
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1009.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2536.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2536.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Andrea Johnson
+employee_address: 363 Little Prairie Pearsonhaven WI 08035-8953
+employee_ssn:     117-37-3899
+employer_name:    None
+employer_address: None
+employer_ein:     25-4831053
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2536.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.9
+overall_confidence: 0.9333333333333332
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 1.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2908.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1003.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Mitchell Allen
+employee_address: 6503 John Stream
+employee_ssn:     691-53-3104
+employer_name:    Mcdonald-Harris Inc
+employer_address: 560 Munoz Mills Suite 766 South Jamesstad MN 44881-3192
+employer_ein:     25-0924379
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1003.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.0
+id_confidence:      0.95
+overall_confidence: 0.6333333333333333
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2909.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1007.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    None
+employee_address: None
+employee_ssn:     760-19-8138
+employer_name:    Brown LLC Group
+employer_address: None
+employer_ein:     21-7657558
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1007.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.0
+address_confidence: 0.0
+id_confidence:      0.95
+overall_confidence: 0.31666666666666665
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_name, employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2910.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2909.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    None
+employee_address: None
+employee_ssn:     815-14-3849
+employer_name:    None
+employer_address: None
+employer_ein:     47-4303247
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2909.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.0
+address_confidence: 0.0
+id_confidence:      0.9
+overall_confidence: 0.3
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_name, employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2911.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1008.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Robert Benson
+employee_address: 84813 Eric Way Apt. North Amberborough AR 94257
+employee_ssn:     280-96-5377
+employer_name:    Flores, Hubbard and Franklin Inc
+employer_address: None
+employer_ein:     33-0179104
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1008.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2913.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2910.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Eric Salazar
+employee_address: 90546 Stephen Shores Patriciafort ME 74844-2448
+employee_ssn:     606-28-8205
+employer_name:    None
+employer_address: None
+employer_ein:     73-9436554
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2910.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2915.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2913.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Danny Cruz
+employee_address: 148 Marquez Cliff Apt. 823 Port Alexanderside AZ
+employee_ssn:     722-70-2179
+employer_name:    Calhoun PLC Group
+employer_address: 02146 Emily Lock Brennanberg TX 95296-4635
+employer_ein:     65-6322014
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2913.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.0
+id_confidence:      0.95
+overall_confidence: 0.6333333333333333
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2916.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1010.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Bobby Torres
+employee_address: 9622 Jessica Estates Apt. 532 Nathantown IA 78428-1174
+employee_ssn:     592-52-8367
+employer_name:    Schaefer Group Ltd
+employer_address: 18648 Costa Valleys Suite 011 78136-7800
+employer_ein:     36-2682044
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1010.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2917.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_clean_1002.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Laura Russo
+employee_address: 2199 Little Falls Snyderton TX 28420-7250
+employee_ssn:     675-52-6498
+employer_name:    Marshall PLC PLC
+employer_address: 6822 Henry Neck Suite 843 Port Angelastad IA 13833-3941
+employer_ein:     73-1267148
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_clean_1002.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2918.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2918.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Elizabeth Hammond
+employee_address: 7408 Timothy Extensions West Dustinmouth SC 46396-4655
+employee_ssn:     159-13-4021
+employer_name:    None
+employer_address: None
+employer_ein:     46-0698337
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2918.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.9
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9333333333333332
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2919.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2916.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Joseph Martinez
+employee_address: 558 Mcconnell Loop Suite 571 Erinville ID 20207-7340
+employee_ssn:     828-94-4458
+employer_name:    Wood, Lee and Spencer Inc
+employer_address: 3794 Veronica Points Apt. 163 South Daniel LA 53794-7733
+employer_ein:     01-8574537
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2916.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2920.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2920.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Kimberly Miller
+employee_address: 6099 Williams Plains Sheppardshire ME 73950-5231
+employee_ssn:     770-50-5320
+employer_name:    None
+employer_address: None
+employer_ein:     34-8103312
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2920.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.9
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9333333333333332
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2921.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2919.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Kathleen Rodriguez
+employee_address: 41952 Hansen Unions Stanleyberg LA 71850-3873
+employee_ssn:     575-79-2300
+employer_name:    None
+employer_address: None
+employer_ein:     50-4345590
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2919.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2922.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2921.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    None
+employee_address: None
+employee_ssn:     None
+employer_name:    None
+employer_address: None
+employer_ein:     None
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2921.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.0
+address_confidence: 0.0
+id_confidence:      0.0
+overall_confidence: 0.0
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2923.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2922.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Tiffany Ramirez
+employee_address: 6243 Avila Mission Apt. 653 East Lori NY 43845-1187
+employee_ssn:     070-82-9963
+employer_name:    Harmon, Wang and Rodriguez and Sons
+employer_address: 2395 Joshua Center Apt. 267 Bryanport VT 37884-9210
+employer_ein:     68-1949016
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2922.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TESTING PDF: W2_XL_input_noisy_2924.pdf
+====================================================================================================
+
+Extracted fields for W2_XL_input_noisy_2923.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Kevin Brown
+employee_address: 5208 Andrew Pine Apt. 494 Port Amy WA 95592-4565
+employee_ssn:     030-74-6444
+employer_name:    Sociai
+employer_address: 36908 Edwin Shoal Jamesside MA 94678-8619
+employer_ein:     90-0307699
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2923.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+Extracted fields for W2_XL_input_noisy_2924.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Erika Giles
+employee_address: 545 Middleton Spurs Apt. 225 Vargasfort NV 03798-3949
+employee_ssn:     066-45-8206
+employer_name:    FAST! Use
+employer_address: 994 Green Fords Apt. 754 New Michelle MS 71861-6392
+employer_ein:     26-6304554
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2924.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9499999999999998
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+Extracted fields for W2_XL_input_noisy_2908.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Alexander Raynes
+employee_address: 6319 Andrew Mill Apt. 581 West Brian MI 80306-1025
+employee_ssn:     513-43-4641
+employer_name:    None
+employer_address: None
+employer_ein:     01-2702785
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2908.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.9
+address_confidence: 0.95
+id_confidence:      0.95
+overall_confidence: 0.9333333333333332
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+Extracted fields for W2_XL_input_noisy_2911.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Victoria Morales
+employee_address: 1272 Price Highway New Scott AL 92936-1875
+employee_ssn:     679-16-9791
+employer_name:    None
+employer_address: None
+employer_ein:     26-7087160
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2911.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.9
+id_confidence:      0.95
+overall_confidence: 0.9333333333333332
+status:             AUTO_APPROVED
+review_reason:      Required customer fields are complete. Repeat evidence - name: 2, address: 1, SSN: 2.
+----------------------------------------------------------------------------------------------------
+
+Extracted fields for W2_XL_input_noisy_2917.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Steven Mason
+employee_address: 453 Kelly Throughwa Petersonfort ND 25841-7459
+employee_ssn:     None
+employer_name:    None
+employer_address: None
+employer_ein:     None
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2917.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.9
+address_confidence: 0.9
+id_confidence:      0.0
+overall_confidence: 0.6
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_ssn
+----------------------------------------------------------------------------------------------------
+
+Extracted fields for W2_XL_input_noisy_2915.pdf:
+----------------------------------------------------------------------------------------------------
+employee_name:    Brian Thompson
+employee_address: 29204 Harding Shoals Apt. 943 Benjaminchester ID
+employee_ssn:     401-09-3931
+employer_name:    Farmer Ltd LLC
+employer_address: 25668 Alyssa Plaza Apt. 495 South Erinfort FL 39579-7371
+employer_ein:     30-9495548
+----------------------------------------------------------------------------------------------------
+
+Validation result for W2_XL_input_noisy_2915.pdf:
+----------------------------------------------------------------------------------------------------
+name_confidence:    0.95
+address_confidence: 0.0
+id_confidence:      0.95
+overall_confidence: 0.6333333333333333
+status:             NEEDS_REVIEW
+review_reason:      Missing or incomplete customer field(s): employee_address
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Test run completed.
+Local text log file: sample_output/noisy_test_results.txt
+Local CSV output file: sample_output/extracted_test_results.csv

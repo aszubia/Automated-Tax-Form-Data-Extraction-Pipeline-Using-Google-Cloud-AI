@@ -1,0 +1,8 @@
+google-cloud-documentai
+google-cloud-storage
+google-cloud-bigquery
+pandas
+python-dotenv
+PyMuPDF
+opencv-python-headless
+Pillow

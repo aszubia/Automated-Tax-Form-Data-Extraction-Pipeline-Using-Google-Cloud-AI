@@ -1,0 +1,82 @@
+file_name,file_type,field_name,expected_value,extracted_value,result,status,review_reason
+W2_XL_input_clean_1000.pdf,clean,employee_name,April Hensley,April Hensley,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1000.pdf,clean,employee_address,31403 David Circles Suite 863 West Erinfort WY 45881-3334,31403 David Circles Suite 863 West Erinfort WY 45881-3334,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1000.pdf,clean,employee_ssn,077-49-4905,077-49-4905,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1001.pdf,clean,employee_name,Taylor Cox,Taylor Cox,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1001.pdf,clean,employee_address,613 Roger Crest Apt. 802 Leeton IA 26442-8249,613 Roger Crest Apt. 802 Leeton IA 26442-8249,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1001.pdf,clean,employee_ssn,779-70-5706,779-70-5706,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1002.pdf,clean,employee_name,Laura Russo,Laura Russo,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1002.pdf,clean,employee_address,2199 Little Falls Snyderton TX 28420-7250,2199 Little Falls Snyderton TX 28420-7250,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1002.pdf,clean,employee_ssn,675-52-6498,675-52-6498,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1003.pdf,clean,employee_name,Mitchell Allen,Mitchell Allen,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1003.pdf,clean,employee_address,6503 John Stream New Meredithstad MI 19628-813,6503 John Stream,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1003.pdf,clean,employee_ssn,691-53-3104,691-53-3104,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1004.pdf,clean,employee_name,James Williams,James Williams,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1004.pdf,clean,employee_address,95060 Crystal Burg Apt. 070 Davisburgh AR 30937-0798,95060 Crystal Burg Apt. 070 Davisburgh AR 30937-0798,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1004.pdf,clean,employee_ssn,037-07-1416,037-07-1416,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2536.pdf,noisy,employee_name,Andrea Johnson,Andrea Johnson,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 1."
+W2_XL_input_noisy_2536.pdf,noisy,employee_address,363 Little Prairie Pearsonhaven WI 08035-8953,363 Little Prairie Pearsonhaven WI 08035-8953,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 1."
+W2_XL_input_noisy_2536.pdf,noisy,employee_ssn,117-37-3899,117-37-3899,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 1."
+W2_XL_input_noisy_2908.pdf,noisy,employee_name,Alexander Raynes,Alexander Raynes,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2908.pdf,noisy,employee_address,6319 Andrew Mill Apt. 581 West Brian MI 80306-1025,6319 Andrew Mill Apt. 581 West Brian MI 80306-1025,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2908.pdf,noisy,employee_ssn,513-43-4641,513-43-4641,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2909.pdf,noisy,employee_name,Philip Robertson,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_noisy_2909.pdf,noisy,employee_address,NOT_VERIFIABLE,,Not Verifiable,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_noisy_2909.pdf,noisy,employee_ssn,NOT_VERIFIABLE,815-14-3849,Not Verifiable,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_noisy_2910.pdf,noisy,employee_name,Eric Salazar,Eric Salazar,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2910.pdf,noisy,employee_address,90546 Stephen Shores Patriciafort ME 74844-2448,90546 Stephen Shores Patriciafort ME 74844-2448,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2910.pdf,noisy,employee_ssn,606-28-8205,606-28-8205,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2911.pdf,noisy,employee_name,Victoria Morales,Victoria Morales,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 1, SSN: 2."
+W2_XL_input_noisy_2911.pdf,noisy,employee_address,1272 Price Highway New Scott AL 92936-1875,1272 Price Highway New Scott AL 92936-1875,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 1, SSN: 2."
+W2_XL_input_noisy_2911.pdf,noisy,employee_ssn,679-16-9791,679-16-9791,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 1, SSN: 2."
+W2_XL_input_noisy_2913.pdf,noisy,employee_name,Danny Cruz,Danny Cruz,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2913.pdf,noisy,employee_address,NOT_VERIFIABLE,148 Marquez Cliff Apt. 823 Port Alexanderside AZ,Not Verifiable,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2913.pdf,noisy,employee_ssn,722-70-2179,722-70-2179,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2915.pdf,noisy,employee_name,Brian Thompson,Brian Thompson,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2915.pdf,noisy,employee_address,NOT_VERIFIABLE,29204 Harding Shoals Apt. 943 Benjaminchester ID,Not Verifiable,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2915.pdf,noisy,employee_ssn,401-09-3931,401-09-3931,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_noisy_2916.pdf,noisy,employee_name,Joseph Martinez,Joseph Martinez,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2916.pdf,noisy,employee_address,558 Mcconnell Loop Suite 571 Erinville ID 20207-7340,558 Mcconnell Loop Suite 571 Erinville ID 20207-7340,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2916.pdf,noisy,employee_ssn,828-94-4458,828-94-4458,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2917.pdf,noisy,employee_name,Steven Mason,Steven Mason,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_ssn
+W2_XL_input_noisy_2917.pdf,noisy,employee_address,453 Kelly Throughway Petersonfort ND 25841-7459,453 Kelly Throughwa Petersonfort ND 25841-7459,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_ssn
+W2_XL_input_noisy_2917.pdf,noisy,employee_ssn,091-54-3329,,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_ssn
+W2_XL_input_noisy_2918.pdf,noisy,employee_name,Elizabeth Hammond,Elizabeth Hammond,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2918.pdf,noisy,employee_address,7408 Timothy Extensions West Dustinmouth SC 46396-4655,7408 Timothy Extensions West Dustinmouth SC 46396-4655,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2918.pdf,noisy,employee_ssn,159-13-4021,159-13-4021,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2919.pdf,noisy,employee_name,Kathleen Rodriguez,Kathleen Rodriguez,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2919.pdf,noisy,employee_address,41952 Hansen Unions Stanleyberg LA 71850-3873,41952 Hansen Unions Stanleyberg LA 71850-3873,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2919.pdf,noisy,employee_ssn,575-79-2300,575-79-2300,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2920.pdf,noisy,employee_name,Kimberly Miller,Kimberly Miller,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2920.pdf,noisy,employee_address,6099 Williams Plains Sheppardshire ME 73950-5231,6099 Williams Plains Sheppardshire ME 73950-5231,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2920.pdf,noisy,employee_ssn,770-50-5320,770-50-5320,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 1, address: 2, SSN: 2."
+W2_XL_input_noisy_2921.pdf,noisy,employee_name,Laura Lawson,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_noisy_2921.pdf,noisy,employee_address,4454 Roy Plaza East Richardshire DE 42353,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_noisy_2921.pdf,noisy,employee_ssn,872-55-3605,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address, employee_ssn"
+W2_XL_input_noisy_2922.pdf,noisy,employee_name,Tiffany Ramirez,Tiffany Ramirez,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2922.pdf,noisy,employee_address,6243 Avila Mission Apt. 653 East Lori NY 43845-1187,6243 Avila Mission Apt. 653 East Lori NY 43845-1187,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2922.pdf,noisy,employee_ssn,070-82-9963,070-82-9963,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2923.pdf,noisy,employee_name,Kevin Brown,Kevin Brown,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2923.pdf,noisy,employee_address,5208 Andrew Pine Apt. 494 Port Amy WA 95592-4565,5208 Andrew Pine Apt. 494 Port Amy WA 95592-4565,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2923.pdf,noisy,employee_ssn,030-74-6444,030-74-6444,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2924.pdf,noisy,employee_name,Erika Giles,Erika Giles,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2924.pdf,noisy,employee_address,545 Middleton Spurs Apt. 225 Vargasfort NV 03798-3949,545 Middleton Spurs Apt. 225 Vargasfort NV 03798-3949,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_noisy_2924.pdf,noisy,employee_ssn,066-45-8206,066-45-8206,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1005.pdf,clean,employee_name,Trevor Duncan,Trevor Duncan,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1005.pdf,clean,employee_address,41435 Hughes Drive New Teresaberg KS 99528-9775,41435 Hughes Drive New Teresaberg KS 99528-9775,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1005.pdf,clean,employee_ssn,768-05-9800,768-05-9800,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1006.pdf,clean,employee_name,Mary Dickerson,Mary Dickerson,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1006.pdf,clean,employee_address,95842 Freeman Coves Apt. 609 Robertburgh MA 63545-3314,95842 Freeman Coves Apt. 63545-3314,Fail,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1006.pdf,clean,employee_ssn,036-91-4705,036-91-4705,Pass,NEEDS_REVIEW,Missing or incomplete customer field(s): employee_address
+W2_XL_input_clean_1007.pdf,clean,employee_name,Seth Bailey,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_clean_1007.pdf,clean,employee_address,341 Charles Mountains Morganberg CO 47155-8501,,Fail,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_clean_1007.pdf,clean,employee_ssn,760-19-8138,760-19-8138,Pass,NEEDS_REVIEW,"Missing or incomplete customer field(s): employee_name, employee_address"
+W2_XL_input_clean_1008.pdf,clean,employee_name,Robert Benson,Robert Benson,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1008.pdf,clean,employee_address,84813 Eric Way Apt. 116 North Amberborough AR 94257-0942,84813 Eric Way Apt. North Amberborough AR 94257,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1008.pdf,clean,employee_ssn,280-96-5377,280-96-5377,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1009.pdf,clean,employee_name,Michelle Brown,Michelle Brown,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1009.pdf,clean,employee_address,730 Huber Island Suite 344 Collinshaven IN 29316-8972,730 Huber Island Suite 344 Collinshaven IN 29316-8972,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1009.pdf,clean,employee_ssn,133-45-6693,133-45-6693,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1010.pdf,clean,employee_name,Bobby Torres,Bobby Torres,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1010.pdf,clean,employee_address,9622 Jessica Estates Apt. 532 Nathantown IA 78428-1174,9622 Jessica Estates Apt. 532 Nathantown IA 78428-1174,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
+W2_XL_input_clean_1010.pdf,clean,employee_ssn,592-52-8367,592-52-8367,Pass,AUTO_APPROVED,"Required customer fields are complete. Repeat evidence - name: 2, address: 2, SSN: 2."
